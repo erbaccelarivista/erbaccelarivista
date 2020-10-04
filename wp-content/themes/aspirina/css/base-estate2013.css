@@ -1,0 +1,422 @@
+/* Curtain.js - Example page */
+
+/* Google Font */
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after { content:"";display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+/* Base Style */
+body {
+    color:#333;
+	background:#FFF;
+}
+
+
+a, #site-title a:focus, #site-title a:hover, #site-title a:active, .entry-title a:hover, .entry-title a:focus, .entry-title a:active, .widget_aspirina_ephemera .comments-link a:hover, section.recent-posts .other-recent-posts a[rel="bookmark"]:hover, section.recent-posts .other-recent-posts .comments-link a:hover, .format-image footer.entry-meta a:hover, #site-generator a:hover {
+    color: #d54701 !important; text-decoration:none !important;
+}
+
+
+#access a {
+    color: #444444 !important;}
+
+#access a:hover {
+    color: #8A8A8A !important;}
+
+
+section {
+	overflow: hidden; 
+	
+}
+
+.content_inner h1, .photos-inner h1 { color: #d54701 !important;}
+
+    section h4:first-child{ margin:0; }
+
+.button{
+    display:inline-block;
+    line-height:1;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 6px 8px;
+    background:#000;
+    color:#FFF;
+    margin:2em 0;
+}
+    .button:hover{
+        color:#FFF;
+        background-color:#444;
+    }
+    .button+.button{margin-left:1em;}
+
+.align-center{text-align: center;}
+
+
+
+/* Sliding panels */
+.curtains>li {
+box-shadow: 0 0 12px #666666;
+min-width:600px;
+}
+
+.curtains>li.nonborder{
+	box-shadow: 0 0 0 #666666;
+	}
+   
+ .curtains>li:last-child{box-shadow:none}
+
+/* MENU */
+#menu{
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:20;
+    padding:10px;
+    background-color:#000;
+}
+    #menu li{margin:0}
+    #menu a{
+        margin:0;
+        color:#FFF;
+    }
+
+
+
+/* Section 1 */
+#homepage{
+    background:#fff url('../images/estate2013.png') 0 0 no-repeat; background-size:19% auto;
+}
+
+.frecce{ position:absolute; bottom:0; background: url('../images/frecce.png') bottom left no-repeat; background-size:100% auto; width:100%; height:30%;}
+
+    #homepage header{
+        color:#FFF;
+        position:absolute;
+        top:30%;
+        left:50%;
+        margin:0 auto 0 -37.5%;
+        width:75%;
+        text-align:center;
+		min-width:450px;
+    }
+
+
+
+section {
+	width:100%;
+	 margin: 0 auto;
+    overflow: hidden;
+    position: relative;}
+		
+section .photo-wide {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;}
+	
+section .entry-content {
+	margin:0 auto;
+	position:asbolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:9999;}
+	
+h1{
+	color:#d54701;}
+	
+	
+ .photo-wide img{
+	 margin-top:5%;
+	 top:0;
+	left:50%;
+	margin-left:-200px;
+	height: 85%;
+	}
+	
+.fixed{
+            position: fixed;
+           
+            width: 35%;
+        }
+.fixed_s{		  
+	top: 130px;
+      left:10%;
+}
+
+.fixed_d{		  
+	top: 130px;
+      left:50%;
+}
+
+.fixed img{
+         
+            width: 100%;
+        }
+
+ .photos-inner{
+            
+			margin-top: 130px;
+            width:35%;
+        }
+		
+.photos-inner_s{	
+		margin-left:50%;
+	 }
+	 
+.photos-inner_d{	
+		margin-left:10%;
+	 }	 
+	 
+ .photos-inner img{
+         	border: none;
+            width: 100%;
+			height:auto !important;
+        }
+
+.content_inner{
+	position:relative;
+	margin-top: 12%;
+    width:38%;
+	margin-left:50%;
+	padding-bottom:10%;
+	font-size: 1em;
+	line-height:1.6em;
+	}
+	
+.content_inner_full{
+    width:90%;
+	margin-left:5%;
+	position:relative;
+	height:100%;
+	margin-top:15%;
+	}
+	
+.content_inner_sommario{
+    width:38%;
+	margin-left:5%;
+	position:relative;
+	height:100%;
+	line-height:1.4em;
+	}
+	
+.banner {
+	width:75%;
+	margin:0 auto;
+	cursor:pointer;
+	}
+	
+.content_inner img{
+	 width: 100%;
+	}
+	
+.content_inner_full img{
+    width:46%;
+	margin:0;
+	}
+	
+.content_inner_full  img.size-full {
+	 width: 100%;
+	}
+		
+.background {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.background  img{
+    width: 100%;
+}
+
+.parallasse-colonna {
+    width: 50%;
+}
+
+.parallasse-colonna img{
+    width: 100%;
+}
+
+.parallasse-scendi{
+	margin-top:-1000px;}
+	
+.animaziones2d {
+	 left: -300px;
+    position: absolute;
+    top: 4%;
+	}
+	
+.animazioned2s {
+	 left: 2000px;
+    position: absolute;
+    top: 4%;
+	}
+	
+.load-overlay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999000;
+}
+
+.load-overlay-center {
+    color: #000000;
+    height: 20.6%;
+    left: 50%;
+    margin: -10% 0 0 -15%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 31.2%;
+    z-index: 99001;
+}
+
+.curtain-links{ font-family:'AlternateGothic'; font-size:1.7em; line-height:1em;}
+
+.curtain-links:hover{color:#e66348 !important;}
+
+.sommario, .colophon{padding-left:10%;}
+
+.autrici{ line-height: 1.802em; font-size:1em;}
+
+.contenutotest {height:100%; overflow:hidden; width:100%; position:relative; min-width:480px;}
+
+.contenutotest .photo-test{overflow:hidden; width:100%; height:auto; margin-top:5%;}
+
+.contenutotest .titolo{position:absolute; left:8.4%; top:46.4%; color:#d54701; font-family: 'AlternateGothic' !important; font-size: 3.5em; font-weight: normal; line-height: 0.8em; text-transform: uppercase;}
+
+.contenutotest .photo-test img {width:100%;}
+
+.colonna-sinistra{ width:50%; float:left; height:100%;}
+.colonna-destra{ width:50%; float:right;height:100%;}
+
+
+h2.domanda{font-family:'AlternateGothic'; font-size:1.9em; color:#d54701; text-transform:uppercase; line-height:1em;}
+
+h2.risposta{font-family:'AlternateGothic'; font-size:3em; color:#d54701; text-transform:uppercase; width:100%; text-align:center; padding-bottom:2%;}
+
+.testorisposta{position:absolute; top:51.7%; left:22.5%; width:57%; font-size:1em; line-height:1.6em;}
+
+.continua-no{  position:absolute; font-family:'AlternateGothic'; font-size:1.5em; line-height:0.2em; text-transform:uppercase; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdca0), color-stop(100%, #fbba3a)); background-image: -webkit-linear-gradient(#fbdca0, #fbba3a); background-image: -moz-linear-gradient(#fbdca0, #fbba3a); background-image: -o-linear-gradient(#fbdca0, #fbba3a); background-image: linear-gradient(#fbdca0, #fbba3a); box-shadow: inset 0 0 3px white; border: 1px solid #de960a; color: #FFF; border-radius: 4px 4px 4px 4px; padding:1%; width:11%; height:4%; text-align:center; text-shadow: 0 1px 1px #fbdca0; left:77.3%; top:72%; z-index:2; }
+
+.continua{  position:absolute; font-family:'AlternateGothic'; font-size:1.5em; line-height:0.2em; text-transform:uppercase; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbdca0), color-stop(100%, #fbba3a)); background-image: -webkit-linear-gradient(#fbdca0, #fbba3a); background-image: -moz-linear-gradient(#fbdca0, #fbba3a); background-image: -o-linear-gradient(#fbdca0, #fbba3a); background-image: linear-gradient(#fbdca0, #fbba3a); box-shadow: inset 0 0 3px white; border: 1px solid #de960a; color: #644405; border-radius: 4px 4px 4px 4px; padding:1%; width:11%; height:4%; text-align:center; text-shadow: 0 1px 1px #fbdca0; cursor:pointer; left:77.3%; top:72%; z-index:2;}
+
+
+
+.continua:hover, .continua-no{ background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #feecca), color-stop(100%, #ffd37d)); background-image: -webkit-linear-gradient(#feecca, #ffd37d); background-image: -moz-linear-gradient(#feecca, #ffd37d); background-image: -o-linear-gradient(#feecca, #ffd37d); background-image: linear-gradient(#feecca, #ffd37d); z-index:2;}
+
+.noloso{  font-family:'AlternateGothic'; font-size:1.5em; line-height:0.2em;  text-transform:uppercase; position:absolute; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #df8989), color-stop(100%, #d03232)); background-image: -webkit-linear-gradient(#df8989, #d03232); background-image: -moz-linear-gradient(#df8989, #d03232); background-image: -o-linear-gradient(#df8989, #d03232); background-image: linear-gradient(#df8989, #d03232); box-shadow: inset 0 0 3px #faeded; border: 1px solid #8f2626;   border-radius: 4px 4px 4px 4px; width:11%; height:4%; float:left;  padding:1%; text-align:center; color:#fff; text-shadow: 0 1px 1px #7b2121; width:11%; left:35%; cursor:pointer; top:0;left:77.3%; top:78%; z-index:2;}
+
+
+.error {color:#900; margin-top:10%;}
+
+.domanda1{position:absolute; left:22.5%; top:19.7%; width:37%; height:25%; z-index:2;}
+.domanda2{position:absolute; left:44.1%; top:49.2%; width:39%; height:25%; z-index:2;}
+.domanda3{position:absolute; left:37.5%; top:19.7%;  width:25.4%; height:25%; z-index:2;}
+.domanda4{position:absolute; left:37.5%; top:49.2%; width:27.4%; height:25%; z-index:2;}
+.domanda5{position:absolute; left:37.5%; top:19.7%;  width:33.4%; height:25%; z-index:2;}
+.domanda6{position:absolute; left:37.5%; top:49.2%; width:55.4%; height:25%;z-index:2;}
+.domanda7{position:absolute; left:43.7%; top:19.7%;  width:45%; height:25%; z-index:2; }
+.domanda8{position:absolute; left:15.7%; top:49.2%; width:47%; height:25%; z-index:2;}
+.domanda9{position:absolute; left:28.5%; top:19.7%; width:34%; height:25%; z-index:2;}
+.domanda10{position:absolute; left:44.1%; top:49.2%; width:45%; height:25%; z-index:2;}
+.domanda12{position:absolute;  left:43.7%; top:19.7%;  width:27.4%; height:25%; z-index:2;}
+.domanda11{position:absolute; left:22.5%; top:49.2%; width:54%; height:25%; z-index:2;}
+
+.imgtest1{position:absolute; left:58.9%; top:13.2%; width:21.8%; height:36.1%; z-index:1;}
+.imgtest2{position:absolute; width:30.5%; height:33.5%; top:45.4%; left:6.7%; z-index:1;}
+.imgtest3{position:absolute; width:30%; height:36.8%; top:14.6%; left:60.3%; z-index:1;}
+.imgtest4{position:absolute; width:20.5%; height:47.5%; left:13.1%; top:25.5%; z-index:1;}
+.imgtest5{position:absolute; width:24.7%; height:30.6%; top:17.5%; left:61.3%; z-index:1;}
+.imgtest6{position:absolute; width:24.7%; height:58.9%; left:9.1%; top:19.7%; z-index:1;}
+.imgtest7{position:absolute; width:28.2%; height:38.5%; top:10.9%; left:9.2%; z-index:1;}
+.imgtest8{position:absolute; width:27.1%; height:53.1%; top:19.7%; left:58.2%; z-index:1;}
+.imgtest9{position:absolute; width:27.5%; height:40.8%; top:10.9%; left:61.6%; z-index:1;}
+.imgtest10{position:absolute; width:24.2%; height:35.2%; top:35%; left:11%; z-index:1;}
+.imgtest11{position:absolute; width:24.4%; height:32.1%; top:15.1%; left:13%; z-index:1;}
+.imgtest12{position:absolute; width:29.6%; height:31.9%; top:28.8%; left:61.7%; z-index:1;}
+
+.imgrisposta{position:absolute; width:100%;}
+
+
+ul.domandasingola span{
+	position: absolute;
+	left: 0;
+	line-height:0.7em;
+	font-size:1.3em;
+	padding: 0.55em;
+	color: #FFF;
+	text-align: center;
+	border: 1px solid #d54701;
+	top:0;
+	
+}
+
+ul.domandasingola{ margin:0; position:relative;}
+
+ul.domandasingola li{position:relative; list-style:none; margin:0.8em 0; 	font-size: 1em;
+	line-height:1.7em;}
+ 
+ul.domandasingola  span:after{
+	content: ""; /*if CSS are disbled span elements are not displayed*/
+}
+ 
+ul.domandasingola input{
+	position: absolute;
+	left: 0;
+	margin: 0;
+	height:100%;
+	width:6%;
+	/*hide the radio button*/
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;
+        cursor: pointer;
+		top:0;
+}
+ 
+ul.domandasingola input[type="radio"] + span{ /*the span element that immediately follow the radio button */
+	visibility: hidden; /*temporarily hide the "YES" label*/
+	background: #ec2365;
+	border: 1px solid #ec2365;
+	line-height:0.5em;
+	padding: 0.31em;
+}
+ 
+ul.domandasingola input[type="radio"] + span:after{
+	content: "*"; /*if CSS are disbled span elements are not displayed*/
+	
+}
+ 
+ 
+ul.domandasingola input[type="radio"]:checked + span{
+	visibility: visible; /*show the "YES" label only if the radio button is checked*/
+}
+
+ul.domandasingola label {
+	margin-left:2.3em;}
+	
+/* Large desktop */
+@media (min-width: 980px) { body { font-size:16px; line-height: 100%;} }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { body { font-size:12px; line-height: 80%;} .navbar-fixed-top {margin-bottom: 0px;} ul.domandasingola li{ margin:0.5em 0;} 
+.autrici{ line-height: 1.77em;}}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { body { font-size:9px; } ul.domandasingola li{ margin:0.3em 0;} .autrici{ line-height: 1.662em;}}
+

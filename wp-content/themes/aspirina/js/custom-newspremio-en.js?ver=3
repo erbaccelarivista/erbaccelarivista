@@ -1,0 +1,37 @@
+jQuery.noConflict();
+
+(function($) {
+
+  jQuery(document).ready(function() {
+	  
+var test=0;
+ 
+var risultatitest=new Array();
+
+risultatitest[0]='<div class="testorisposta">You are part of the staff of a magazine where the high presence of men, in person and contents, can arouse suspicions and cause some to wonder if women actually exist. To admit that yes, they do exist, could be a hard blow for you, but you can successfullly ignore the question if, when the 8th of March is nearing, you decide to assign a few page of the magazine to the fair sex.<br /><br />Warning: the number of assigned pages must be more than two.</div><div class="genera">GENERATE A RANDOM SOLUTION</div>';
+risultatitest[1]='<div class="testorisposta">You are staff manager of a company whose personnel is mostly men who tend to camaraderie and  harassing comments. Deep inside, you are persuaded that the company\'s strenght comes also from there, but you risk being accused of sexism. Establish a quota of LGBTIQ employees and advertise it, counting on the philantropy of old staff members on instructing the new ones.<br /><br />Warning: be prepared to a high turnover. Once they discover the habits of the workplace population, the new ones are apt to fly quickly.</div><div class="genera">GENERATE A RANDOM SOLUTION</div>';
+risultatitest[2]='<div class="testorisposta">You are interested only in talking and writing about other men, with whom you share dreams and hopes of glory, firm handshakes, pats on the back and mutual quoting. This attitude can blemish your politically correctness and cultural integrity. As soon as you have the opportunity, declare to the world your indignation for the lack of recognition of some well known woman.<br /><br />Warning: the woman in question must be absolutely uninterested in the recognition you propose, better if she\'s totally unaware of your existence.</div><div class="genera">GENERATE A RANDOM SOLUTION</div>';
+risultatitest[3]='<div class="testorisposta">You are part of a mixed collective in whose declarations of intents is included \'feminism\'. Generally speaking, you can postpone its implementation till after the revolution, but if you want to look pragmatic and avoid the usual hysterical attacks, you only have to take a few precautions: on every meeting, at least one speech by a woman (reading the menu of the crowd-funding dinner is ok), at least a meeting every three-to-six months on gender matters (this way you can check off also the entry LGBTIQ)</div><div class="genera">GENERATE A RANDOM SOLUTION</div>';
+risultatitest[4]='<div class="testorisposta">Your girlfriend doesn\'t seem to share you poliamorism. Avoid talking about universal love, it\'s proved to be counter-produtive. Make your point about deconstructing the stereotype of the promiscuous man and romantic monogamous female, affirming she has the  sacrosant right to upgrade and experiment masculine stereotypes. If she doens\'t seem persuaded, remind her that she\'s been exposed since she was born to the influence of culture, while you, who have left all this behind you, can confirm that poliamorism is really the road to freedom.</div><div class="genera">GENERATE A RANDOM SOLUTION</div>';
+
+   
+$('.genera').live('click', function() {
+	  $('.contenutogeneratore').fadeOut('slow', function() {
+		if(test<5){
+		$('.contenutogeneratore').html(risultatitest[test]);
+		$('.contenutogeneratore').fadeIn();
+		test++;}
+		else{
+		test=0;
+		$('.contenutogeneratore').html(risultatitest[test]);
+		$('.contenutogeneratore').fadeIn();
+		}
+	  });
+	});
+      
+   
+
+
+  });
+
+})(jQuery);

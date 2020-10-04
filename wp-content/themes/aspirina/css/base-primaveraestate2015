@@ -1,0 +1,437 @@
+/* Curtain.js - Example page */
+
+/* Google Font */
+
+
+
+/* Clearfix */
+.cf:before,
+.cf:after { content:"";display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1;}
+
+/* Base Style */
+body {
+    color:#333;
+	background:#FFF;
+	font-size: 16px; font-size: 1rem;
+}
+
+
+body.postid-4214 {
+	 background: url("../images/back-site.png") repeat-x scroll left top #fff !important;
+	}
+
+a, #site-title a:focus, #site-title a:hover, #site-title a:active, .entry-title a:hover, .entry-title a:focus, .entry-title a:active, .widget_aspirina_ephemera .comments-link a:hover, section.recent-posts .other-recent-posts a[rel="bookmark"]:hover, section.recent-posts .other-recent-posts .comments-link a:hover, .format-image footer.entry-meta a:hover, #site-generator a:hover {
+    color: #00c7d9 !important; text-decoration:none !important;
+}
+
+
+#access a {
+    color: #444444 !important;}
+
+#access a:hover {
+    color: #8A8A8A !important;}
+
+
+section {
+	overflow: hidden; 
+	
+}
+
+.content_inner h1, .photos-inner h1 { color: #00c7d9 !important;}
+
+    section h4:first-child{ margin:0; }
+
+.button{
+    display:inline-block;
+    line-height:1;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 6px 8px;
+    background:#000;
+    color:#FFF;
+    margin:2em 0;
+}
+    .button:hover{
+        color:#FFF;
+        background-color:#444;
+    }
+    .button+.button{margin-left:1em;}
+
+.align-center{text-align: center;}
+
+
+
+/* Sliding panels */
+.curtains>li {
+box-shadow: 0 0 12px #666666;
+min-width:600px;
+}
+
+.curtains>li.nonborder{
+	box-shadow: 0 0 0 #666666;
+	}
+   
+ .curtains>li:last-child{box-shadow:none}
+
+/* MENU */
+#menu{
+    position:fixed;
+    top:20px;
+    left:20px;
+    z-index:20;
+    padding:10px;
+    background-color:#000;
+}
+    #menu li{margin:0}
+    #menu a{
+        margin:0;
+        color:#FFF;
+    }
+
+
+
+/* Section 1 */
+#homepage{
+    background:#fff url('../images/bollo-primavera-estate2015.png') 0 0 no-repeat; background-size:19% auto;
+}
+
+.frecce{ position:absolute; bottom:0; background: url('../images/frecce-primavera-estate2015.png') bottom left no-repeat; background-size:100% auto; width:100%; height:30%;}
+
+    #homepage header{
+        color:#FFF;
+        position:absolute;
+        top:30%;
+        left:50%;
+        margin:0 auto 0 -37.5%;
+        width:75%;
+        text-align:center;
+		min-width:450px;
+    }
+
+
+
+section {
+	width:100%;
+	 margin: 0 auto;
+    overflow: hidden;
+    position: relative;}
+		
+section .photo-wide {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;}
+	
+section .entry-content {
+	margin:0 auto;
+	position:asbolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:9999;}
+	
+h1{
+	color:#00c7d9;
+	 line-height: 0.9em !important;}
+	
+	
+ .photo-wide img{
+	 margin-top:5%;
+	 top:0;
+	left:50%;
+	margin-left:-200px;
+	height: 85%;
+	}
+	
+.fixed{
+            position: fixed;
+           
+            width: 35%;
+        }
+.fixed_s{		  
+	top: 130px;
+      left:10%;
+}
+
+.fixed_d{		  
+	top: 130px;
+      left:50%;
+}
+
+.fixed img{
+         
+            width: 100%;
+        }
+
+ .photos-inner{
+            
+			margin-top: 130px;
+            width:35%;
+        }
+		
+.photos-inner_s{	
+		margin-left:50%;
+	 }
+	 
+.photos-inner_d{	
+		margin-left:10%;
+	 }	 
+	 
+ .photos-inner img{
+         	border: none;
+            width: 100%;
+			height:auto !important;
+        }
+
+.content_inner{
+	position:relative;
+	margin-top: 12%;
+    width:38%;
+	margin-left:50%;
+	padding-bottom:10%;
+	line-height:1.6em;
+	font-size: 16px; font-size: 1rem;
+	}
+	
+#page.newspecial li {list-style:none;}
+
+
+
+	
+.content_inner_sotto{
+	position:relative;
+	margin-top: 0;
+    width:38%;
+	margin-left:50%;
+	padding-bottom:10%;
+	line-height:1.6em;
+	font-size: 16px; font-size: 1rem;
+	}
+	
+.content_inner_doppio{
+	position:relative;
+	margin-top: 0;
+	padding-bottom:0;
+	line-height:1.6em;
+	font-size: 16px; font-size: 1rem;
+	}
+	
+.content_inner_full{
+    width:90%;
+	margin-left:5%;
+	position:relative;
+	height:100%;
+	margin-top:15%;
+	}
+	
+.content_inner_full_doppio{
+    width:90%;
+	margin-left:5%;
+	position:relative;
+	height:100%;
+	margin-top:0;
+	}
+	
+.content_inner_sommario{
+    width:38%;
+	margin-left:5%;
+	position:relative;
+	height:100%;
+	line-height:1.4em;
+	}
+	
+.left-sommario { padding-right: 20px;}
+
+.right-sommario{ }
+
+.title-sommario{
+	padding-bottom:20px;}
+	
+.banner {
+	width:75%;
+	margin:0 auto;
+	cursor:pointer;
+	}
+	
+.content_inner img{
+    width: 100%;
+	}
+	
+.content_inner_full img{
+    width:46%;
+	margin:0;
+	}
+	
+.content_inner_full  img.size-full {
+	 width: 100%;
+	}
+		
+.background {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.background  img{
+    width: 100%;
+}
+
+.background-2 {
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.background-2 img{
+    width: 100%;
+}
+
+.parallasse-colonna {
+    width: 50%;
+}
+
+.parallasse-colonna img{
+    width: 100%;
+}
+
+.parallasse-scendi{
+	margin-top:-1000px;}
+	
+.animaziones2d {
+	 left: -300px;
+    position: absolute;
+    top: 4%;
+	}
+	
+.animazioned2s {
+	 left: 2000px;
+    position: absolute;
+    top: 4%;
+	}
+	
+.load-overlay {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.load-overlay-center {
+    color: #000000;
+    height: 20.6%;
+    left: 50%;
+    margin: -10% 0 0 -15%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 31.2%;
+    z-index: 100;
+}
+
+.curtain-links{ font-family:'AlternateGothic'; font-size:1.7em; line-height:1em; color:#00c7d9 !important;}
+
+.curtain-links:hover{color:#84ab7a !important;}
+
+.sommario, .colophon{padding-left:10%;}
+
+.autrici{ line-height: 1.802em; font-size:1em;}
+
+.contenutotest {height:100%; overflow:hidden; width:100%; position:relative; min-width:480px;}
+
+.contenutotest .photo-test{overflow:hidden; width:100%; height:auto; margin-top:5%;}
+
+.contenutotest .titolo{position:absolute; left:8.4%; top:46.4%; color:#00c7d9; font-family: 'AlternateGothic' !important; font-size: 3.5em; font-weight: normal; line-height: 0.8em; text-transform: uppercase;}
+
+.contenutotest .photo-test img {width:100%;}
+
+.colonna-sinistra{ width:50%; float:left; height:100%;}
+.colonna-destra{ width:50%; float:right;height:100%;}
+
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  hieght:auto;
+  width:78%;
+  margin: 0 auto;
+}
+
+
+#page.newspecial #slider{min-width:760px;}
+
+#slider ul {
+  position: relative;
+  margin: 0 !important;
+  padding: 0;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 300px;
+}
+
+#slider ul li img { width:100%; margin: 0 !important;}
+
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 45%;
+  z-index: 999;
+  display: block;
+  width: 5.5%;
+  height: 13.7%;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+a.control_prev {
+   background:url('../images/slider-left-inv.png') top left no-repeat;  background-size:100% auto;
+}
+
+a.control_next {
+	right: 0;
+  background:url('../images/slider-right-inv.png') top right no-repeat; background-size:100% auto;
+}
+
+
+@media only screen and (min-width: 1450px)
+{
+.content_inner { font-size: 23px; font-size: 1.4rem; line-height: 1.6em;} .autrici{ line-height: 2.5rem;} .content_inner h1, .photos-inner h1 {font-size: 4em;} p {
+    margin-bottom: 1.625em;
+}
+}
+
+/* Large desktop */
+@media (min-width: 980px) { body { font-size: 16px; font-size: 1rem; line-height: 1em;} .content_inner h1, .photos-inner h1 {font-size: 4em;} p {
+    margin-bottom: 1.625em;
+}}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { body { font-size:12px; line-height: 80%;} .navbar-fixed-top {margin-bottom: 0px;} ul.domandasingola li{ margin:0.5em 0;} 
+.autrici{ line-height: 1.8rem;} .content_inner h1, .photos-inner h1 {font-size: 3em;} }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { body { font-size:9px; } ul.domandasingola li{ margin:0.3em 0;} .autrici{ line-height: 1.8rem;} .content_inner h1, .photos-inner h1 {font-size: 2.5em;} p { font-size: 0.9em;
+} }
+
