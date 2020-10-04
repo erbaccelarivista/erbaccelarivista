@@ -111,7 +111,7 @@ function setup(){
             sounds: [
                 "camera_flashing_2",
             ],
-            path: "http://www.erbaccelarivista.org/sounds/",
+            path: "https://erbaccelarivista.github.io/sounds/",
             multiPlay: true,
             volume: "1.0"
      });
