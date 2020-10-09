@@ -143,7 +143,7 @@ jQuery.noConflict();
         'camera_flashing_2',
         'skype'
       ],
-      path: 'https://erbaccelarivista.github.io/sounds/',
+      path: '/sounds/',
       multiPlay: true,
       volume: '0.2'
     });

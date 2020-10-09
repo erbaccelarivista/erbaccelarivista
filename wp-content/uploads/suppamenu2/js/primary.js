@@ -14,11 +14,11 @@
         suppa_js_settings.rwd_search            = 'off';
         suppa_js_settings.logo_enable           = 'logo_left_menu_right';
         suppa_js_settings.rwd_logo_enable       = 'logo_left_menu_right';
-        suppa_js_settings.logo_src              = 'https://erbaccelarivista.github.io/wp-content/uploads/2014/09/home_grey.png';
-        suppa_js_settings.logo_retina_src       = 'https://erbaccelarivista.github.io/wp-content/uploads/2014/09/home.png';
-        suppa_js_settings.rwd_logo_src          = 'https://erbaccelarivista.github.io/wp-content/uploads/2014/09/home_grey.png';
-        suppa_js_settings.rwd_logo_retina_src   = 'https://erbaccelarivista.github.io/wp-content/uploads/2014/09/home.png';
-        suppa_js_settings.site_url              = 'https://erbaccelarivista.github.io';
+        suppa_js_settings.logo_src              = '/wp-content/uploads/2014/09/home_grey.png';
+        suppa_js_settings.logo_retina_src       = '/wp-content/uploads/2014/09/home.png';
+        suppa_js_settings.rwd_logo_src          = '/wp-content/uploads/2014/09/home_grey.png';
+        suppa_js_settings.rwd_logo_retina_src   = '/wp-content/uploads/2014/09/home.png';
+        suppa_js_settings.site_url              = '';
         suppa_js_settings.recent_posts_view_all = 'off';
 
 	    jQuery('.primary').suppamenu( suppa_js_settings );
